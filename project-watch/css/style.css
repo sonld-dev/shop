@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a, span, i {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  :focus {
+    outline: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  body {
+    color: #7a7a7a;
+    font-size: 14px; 
+    font-weight: 400;
+    line-height: 1.7;
+    font-family: 'Lato', sans-serif;
+  }
+.btn{
+  
+  background-color: #7a7a7a;
+  padding: 10px 10px ;
+  border-radius: 5%;
+  border: none;
+  color: #ffffff;
+}
+.btn:hover{
+  color: black;
+  background-color: #ffffff;
+}
+.container{
+max-width: 1200px;
+height: auto;
+margin: 0px auto;
+padding-left: 15px;
+padding-right: 15px ;
+}
+.container-fluild{ width: 100%; height: auto;}
+.top-menu{
+    height: auto;
+    background-color:#2F3337;
+    
+}
+.row{display: flex; justify-content: space-between; align-items: center;}
+.logo-watch img{height: 40px;}
+/* ======== 02. General ======== */
+.social-media{word-spacing: 7px;}
+.fa-twitter{ color:#ffffff ; background-color: #1B9FF1;border-radius: 20%;}
+.fa-facebook{color: #ffffff; background-color: #1775F1; width: 15px; text-align: center; border-radius: 20%;}
+.fa-instagram{color:#D03C94;}
+.fa-youtube{color: #F70600; }
+.fa-pinterest-p{color: #ffffff; background-color: red;  border-radius: 15%; color: #ffffff;}
+/* ======== end ======== */
+/*.slider{background-image: url(/images/banner.jpg);height: 100vw;background-repeat: no-repeat;background-size: 100%;} */
+.fa-list{color: #2F3337;}
+.slider{text-align: center; }
+#slider{width:100%; height:auto;}

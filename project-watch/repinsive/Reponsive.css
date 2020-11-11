@@ -1,0 +1,21 @@
+@media only screen and (max-width: 576px){
+    span{
+        display: none;
+    }
+    .main-menu {
+        display: none;
+    }
+    .btn{
+        background-color: #7a7a7a;
+        padding: 5px 5px ;
+        border-radius: 5%;
+        border: none;
+        color: #ffffff;
+    }
+     
+}
+@media only screen and (min-width: 576px){
+    .list-menu{
+        display: none;
+    }
+}
